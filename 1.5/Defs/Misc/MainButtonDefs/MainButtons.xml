@@ -2,9 +2,8 @@
   	<MainButtonDef>
 	    <defName>Inventory</defName>
 	    <label>inventory</label>
-	    <description>Shows all items in the colonys stockpile.</description>
+	    <description>Shows all items in the colony's stockpiles.</description>
 	    <tabWindowClass>InventoryTabTwo.MainTabWindow_Inventory</tabWindowClass>
 	    <order>70</order>
-
 	</MainButtonDef>
 </Defs>

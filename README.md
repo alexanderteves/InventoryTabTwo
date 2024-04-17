@@ -17,3 +17,5 @@ $> dotnet build InventoryTabTwo.csproj
 ## Installation
 
 This fork will not be published in the game's workshop on Steam. Instead, you can package a `*.tar.gz` file and [extract it in the game's "Mods" directory](https://rimworld.fandom.com/wiki/Mods).
+
+Packages can also be found under "Releases".

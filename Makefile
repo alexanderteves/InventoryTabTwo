@@ -4,4 +4,4 @@ build:
 	dotnet build InventoryTabTwo.csproj
 
 release:
-	tar cfzv InventoryTabTwo.tar.gz 1.5/ About/ Textures/
+	mkdir -p .release/InventoryTabTwo && cp -r 1.5 About Textures .release/InventoryTabTwo && tar cfzv InventoryTabTwo.tar.gz -C .release . && rm -rf .release
