@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <TargetFramework>net472</TargetFramework>
+      <OutputPath>1.5/Assemblies</OutputPath>
+      <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+      <DebugType>none</DebugType>
+      <Optimize>true</Optimize>
+      <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemDefinitionGroup>
+      <Reference>
+        <Private>False</Private>
+      </Reference>
+    </ItemDefinitionGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4066" />
+      <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
+    </ItemGroup>
+</Project>
